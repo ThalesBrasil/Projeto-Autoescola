@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    margin: 0;  
+}
+
+.login-cadastro {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.btn {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+nav {
+    background-color: #444;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444;
+}
+
+ul.menu > li {
+    float: left;
+}
+
+ul.menu > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.menu > li a:hover {
+    background-color: #555;
+}
+
+.info {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.carousel {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #ccc;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        max-width: 100%;
+    }
+}
+
+.acessibilidade {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.acessibilidade button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.acessibilidade button:hover {
+    background-color: #555;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+header.dark-mode, nav.dark-mode, footer.dark-mode {
+    background-color: #1e1e1e;
+}
+
+.acessibilidade button.dark-mode {
+    background-color: #fff;
+    color: #121212;
+}
